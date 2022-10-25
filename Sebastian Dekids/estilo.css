@@ -1,0 +1,163 @@
+
+*{
+    margin: 0px;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: #5093eb;
+border-radius: 24px;
+border: none;
+font-size: 20px;
+cursor: pointer;
+margin-top: 30px;
+}
+h1 strong{
+    color: #f380f9;
+}
+body{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 123, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+    background-color: rgb(7, 17, 17);
+width: 60px;
+    color: dodgerblue;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+display: flex;
+align-items: center;
+padding:0px 10px;
+}
+.menu{
+    height: inherit;
+}
+ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+display: flex;
+height: inherit;
+}
+
+.container1{
+display: flex;
+background-color: olivedrab;
+justify-content: space-around;
+padding: 20px;
+}
+.container2{
+    background-color: rgb(121, 11, 121);
+}
+
+
+.logo img{
+    width: 80px;
+}
+.principal{
+    background: rgb(1, 8, 4);
+background-image: url(https://previews.123rf.com/images/pinkomelet/pinkomelet1710/pinkomelet171000007/87484134-el-mantel-o-la-servilleta-a-cuadros-rojo-arrugado-en-la-tabla-de-madera-blanca-vac%C3%ADa-con-el-espacio-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+    
+}
+/*
+.padre
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content:space-around;
+     height:500px ;
+     align-items: center;
+}
+.hijo
+{
+    background: steelblue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    margin: 10px;
+}
+*/
+.principal img{
+    
+}
+.somos
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 123, 0);
+font-size: 20px;
+    padding: 200px 50px;
+    text-align: center;
+    
+}
+.principal_2{
+    background-color: rgb(255, 0, 0);
+    color: aquamarine;
+    text-align: left;
+    padding: 25px 100px 200px 50px;
+}
+.header li{
+    height: inherit;
+
+    
+}
+.participantes{
+    background-color: rgb(223, 197, 115);
+    display: flex;
+    height: 500px;
+}
+.quienes{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+text-align: center;
+height: inherit;
+}
+.imagen img {
+height: 90%;
+padding: 30px;
+}
+.row1-contacto img{
+    width: 35px;
+    height: 25px;
+}
+.row2-contacto img{
+    width: 35px;
+    height: 25px;
+}
+.row1-redes img{
+    width: 35px;
+    height: 25px;
+}
+.row2-redes img{
+    width: 35px;
+    height: 25px;
+}
+.row1-contacto{
+    display: flex;
+}
+.row2-contacto{
+    display: flex;
+}
